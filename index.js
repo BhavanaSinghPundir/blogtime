@@ -40,13 +40,12 @@ mongoose.connect(process.env.MONGO,{
   app.use("/api/users",userRoute);
   app.use("/api/posts",postRoute); 
   app.use("/api/categories", categoryRoute);
-if(process.env.NODE_ENV= "production"){
-  app.use(express.static( "/client/build"));
-//lama
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
-// });
-}
+
+  app.use(express.static(path.join(__dirname, "/client/build")));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+});
 
 app.use("/",(req,res)=>{
     console.log("bhavana url");
