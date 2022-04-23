@@ -19,8 +19,8 @@ export default function Sidebar() {
     <div className="sidebar">
         <div className="sidebarItem">
             <span className="sidebarTitle">ABOUT ME</span>
-            <img src="https://cdn.pixabay.com/photo/2016/11/22/06/05/girl-1848454_960_720.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et totam eaque veritatis voluptatibus, dolore iure cum. Similique minus a odit quisquam nesciunt, ratione totam tempore harum sit amet debitis.</p>
+            <img src="https://miro.medium.com/max/1100/1*dqvlaszRLvoPmARpOlLN9A.png" alt="" />
+            <p>This is our Mern project <br /> <br /> Made by Sayali Mandavkar <br />Satwika Pantagani <br /> Bhavana Pundir</p>
         </div>
         <div className="sidebarItem">
             <span className="sidebarTitle">CATEGORIES</span>
