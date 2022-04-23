@@ -1,7 +1,7 @@
 import "./post.css"
 import {Link} from "react-router-dom"
 export default function Post({post}) {
-  const PF="https://blogtimee.herokuapp.com/images/";
+  const PF="https://bloggtime.herokuapp.com/images/";
   return (
     <div className="post">
       {post.photo && (
