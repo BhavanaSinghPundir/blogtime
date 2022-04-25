@@ -8,6 +8,8 @@ import Topbar from "./components/topbar/Topbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
+import Contact from "./components/pages/contact/Contact";
+import About from "./components/pages/about/About";
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Topbar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
+        <Route exact path="/contact" element={<Contact/>}/>
+        <Route exact path="/about" element={<About/>}/>
         <Route exact path="/register" element={user?<Home/>:<Register/>} />
         <Route exact path="/login" element={user?<Home/>:<Login/>} />
         <Route exact path="/write" element={user?<Write/>:<Register/>} />

@@ -5,10 +5,10 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
+        rgba(255, 255, 255, 0),
+        #ffffff00
       ),
-      url("https://img.freepik.com/free-vector/abstract-watercolor-painted-background_23-2149050138.jpg?t=st=1650676721~exp=1650677321~hmac=31589bb1d84db4a4a819df554d0d754fdff827f34cdc3c487");
+      url("https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
   }
   
@@ -42,7 +42,7 @@
   .loginButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: rgb(87, 83, 83);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     border: none;
@@ -51,14 +51,14 @@
   }
   .loginButton:disabled{
     cursor: not-allowed;
-    background-color: coral;
+    background-color: rgb(77, 76, 107);
   }
   
   .loginRegisterButton {
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: rgb(67, 73, 73);
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 10px;
     border: none;
@@ -67,4 +67,5 @@
   }
   label{
     font-family: 'Lora', serif;
+    color: black;
   }

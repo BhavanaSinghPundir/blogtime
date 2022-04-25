@@ -18,11 +18,11 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
         <div className="sidebarItem">
-            <span className="sidebarTitle">ABOUT ME</span>
+            <span className="sidebarTitle">About Us</span>
             <img src="https://miro.medium.com/max/1100/1*dqvlaszRLvoPmARpOlLN9A.png" alt="" />
-            <p>This is our Mern project <br /> <br /> Made by Sayali Mandavkar <br />Satwika Pantagani <br /> Bhavana Pundir</p>
+            <p>This is our MERN project  <br /> made by <br /> <br /> Sayli Mandavkar <br />Satwika Pantagani <br /> Bhavana Pundir</p>
         </div>
-        <div className="sidebarItem">
+        {/* <div className="sidebarItem">
             <span className="sidebarTitle">CATEGORIES</span>
             <ul className="sidebarList">
                 {cats.map(c=>(
@@ -31,7 +31,7 @@ export default function Sidebar() {
                     </Link>
                 ))}
             </ul>
-        </div>
+        </div> */}
         <div className="sidebarItem">
             <span className="sidebarTitle">FOLLOW US</span>
             <div className="sidebarSocial">
